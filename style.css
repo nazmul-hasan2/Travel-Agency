@@ -258,7 +258,7 @@ a.header_btn {
   top: var(--header-top);
 }
 #hero {
-  background: url("../images/hero/hero-bg.png") no-repeat center center/cover;
+  background: url("images/hero/hero-bg.png") no-repeat center center/cover;
   padding-top: calc(var(--header-top) + 67px);
   padding-bottom: 236px;
 }
