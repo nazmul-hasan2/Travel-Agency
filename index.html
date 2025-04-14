@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel and Tour Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header id="navbar" class="wrapper">
+    <nav class="header_nav">
+      <div class="desktop_header menu desktop">
+        <div class="left">
+          <a href="/" alt="Home" class="image_link">
+            <img src="images/header/logo.png" alt="" class="header_logo" height="63px">
+          </a>
+        </div>
+        <div class="middle">
+          <ul class="menu_lists">
+            <li class="nav_item"><a href="" class="nav_link nav_active">Home</a></li>
+            <li class="nav_item"><a href="" class="nav_link">About</a></li>
+            <li class="nav_item dropdown">
+              <a href="" class="nav_link">Service</a>
+              <span class="drop_arrow">
+                <i class="fa-classic fa-solid fa-caret-down fa-fw"></i>
+              </span>
+              <div class="dropdown_content">
+                <a href="" class="dopdown_link">Honeymoon Packages</a>
+                <a href="" class="dopdown_link">Tours Packages</a>
+                <a href="" class="dopdown_link">Musical Events</a>
+                <a href="" class="dopdown_link">Build Package</a>
+              </div>
+            </li>
+            <li class="nav_item"><a href="" class="nav_link">Upcoming packages</a></li>
+
+          </ul>
+        </div>
+        <div class="right">
+          <a href="" alt="" class="btn header_btn">Get in Touch</a>
+        </div>
+      </div>
+      <div class="mobile-menu mobile">
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-left">
+            <div class="logo">
+              <a href="./index.html" class="image_link">
+                <img src="images/header/logo.png" class="logo-img" alt="logo" height="63px" />
+              </a>
+
+            </div>
+          </div>
+          <div class="mobile-menu-right">
+            <button popovertarget="menu" popovertargetaction="show" class="Hamburger-menu">
+              <img src="images/header/menu-line.svg" alt="" width="32" height="32" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <div class="wrapper hero_wrapper inline_0 hero">
+        <div class="hero_content">
+          <div class="hero_text">
+            <h1 class="large_heading hero_heading">No matter where <br> you're going to, we'll <br> take you there</h1>
+
+
+            <form action="" class="hero_form">
+              <span>Where to?</span>
+
+              <select name="country" id="travel_type">
+                <option value="">Travel Type</option>
+                <option value="1">Country 1</option>
+                <option value="2">Country 2</option>
+                <option value="3">Country 3</option>
+              </select>
+              <select name="country" id="duration">
+                <option value="">Duration</option>
+                <option value="1">Country 1</option>
+                <option value="2">Country 2</option>
+                <option value="3">Country 3</option>
+              </select>
+              <input type="submit" class="btn" value="Submit">
+            </form>
+
+            <div class="people">
+              <div class="people_icon">
+                <span class="people_item">
+                  <img src="images/hero/Ellipse-31.png" alt="" class="people_image">
+                </span><span class="people_item">
+                  <img src="images/hero/Ellipse-32.png" alt="" class="people_image">
+                </span><span class="people_item">
+                  <img src="images/hero/Ellipse-33.png" alt="" class="people_image">
+                </span><span class="people_item">
+                  <img src="images/hero/Ellipse-34.png" alt="" class="people_image">
+                </span><span class="people_item">
+                  <img src="images/hero/Ellipse-35.png" alt="" class="people_image">
+                </span><span class="people_item">
+                  <img src="images/hero/Ellipse-36.png" alt="" class="people_image">
+                </span>
+                <span class="people_item">
+                  +
+                </span>
+
+              </div>
+              <div class="people_text">
+                <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="support">
+      <div class="wrapper inline_0">
+        <div class="support_items">
+          <img src="images/support/image-909.png" alt="" class="sup_item">
+          <img src="images/support/Mask-group-1.png" alt="" class="sup_item">
+          <img src="images/support/Mask-group.png" alt="" class="sup_item">
+          <img src="images/support/Mask-group-2.png" alt="" class="sup_item">
+          <img src="images/support/image-912.png" alt="" class="sup_item">
+
+
+
+        </div>
+        <div class="scroll">
+          <div class="circle_1">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="scroll_text">Scroll</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="category">
+      <div class="wrapper category_wrapper inline_0">
+        <div class="category_content">
+          <div class="cat_top">
+            <h5 class="promotion">CATEGORY</h5>
+            <h2 class="large_heading">We Offer Best Services</h2>
+          </div>
+          <div class="categories">
+            <div class="cat_item cat_1">
+              <div class="cat_image"> <img src="images/offer/tour-guide 1.png" alt="icon"><span
+                  class="angle"></span></div>
+              <h4 class="icon_main_heading">Guided Tours</h4>
+              <p class="icon_sub_heading">
+                sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+              <span class="bold_card"></span>
+            </div>
+            <div class="cat_item cat_2 cat_active">
+              <div class="cat_image"> <img src="images/offer/tour-guide 1.png" alt="icon">
+                <span class="angle"></span>
+              </div>
+              <h4 class="icon_main_heading">Best Flights Options</h4>
+              <p class="icon_sub_heading">
+                sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+              <span class="bold_card"></span>
+            </div>
+            <div class="cat_item cat_3">
+              <div class="cat_image"> <img src="images/offer/tour-guide 1.png" alt="icon"><span
+                  class="angle"></span></div>
+              <h4 class="icon_main_heading">Religious Tours</h4>
+              <p class="icon_sub_heading">
+                sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+              <span class="bold_card"></span>
+            </div>
+            <div class="cat_item cat_4">
+              <div class="cat_image"> <img src="images/offer/tour-guide 1.png" alt="icon"><span
+                  class="angle"></span></div>
+              <h4 class="icon_main_heading">Medical insurance</h4>
+              <p class="icon_sub_heading">
+                sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+              <span class="bold_card"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sp_01">
+      <div class="wrapper honeymoon_wrapper inline_0 mobile_padding_inline">
+        <div class="sp_container sp_c_01">
+          <div class="item_1 sp_01">
+            <img src="images/resort/sp_bg_1.png" alt="" class="sp_img motion_left">
+          </div>
+          <div class="item_2 sp_01">
+            <div class="item_content">
+              <div class="sp_content auto">
+                <h5 class="promotion">Honeymoon Specials</h5>
+                <h2 class="large_heading">Our Romantic Tropical Destinations</h2>
+                <p class="description m_width">
+                  Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.
+                  Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+                  illum aut optio quibusdam!
+                </p>
+                <a href="" alt="" class="btn">View Packages</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="sp_02">
+      <div class="wrapper fast_easy_wrapper inline_0 mobile_padding_inline">
+        <div class="sp_container sp_c_02">
+          <div class="item_1 sp_02">
+            <div class="sp_content auto">
+              <h5 class="promotion">Fast & Easy</h5>
+              <h2 class="large_heading">Get Your Favourite <br> Resort Bookings</h2>
+              <div class="icon_box">
+                <div class="icon_item">
+                  <img src="images/resort/Group-7.png" alt="icon">
+                  <div class="icon_description">
+                    <h4>Choose Destination</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                  </div>
+                </div>
+                <div class="icon_item">
+                  <img src="images/resort/Group-11.png" alt="icon">
+                  <div class="icon_description">
+                    <h4>Check Availability</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                  </div>
+                </div>
+                <div class="icon_item">
+                  <img src="images/resort/Group-12.png" alt="icon">
+                  <div class="icon_description">
+                    <h4>Let's Go</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item_2 sp_02">
+            <div class="air_plane">
+              <div class="air_content box_shadow shadow_radious">
+                <div class="resort_image"><img src="images/resort/plane/resort.png" alt="resort"></div>
+                <div class="resort_title">
+                  <h4 class="heading">Trip to Hawaii </h4>
+                </div>
+                <div class="resort_meta"><span class="subheading date">14-29 June</span><span
+                    class="subheading author">by JR Martinax</span></div>
+                <div class="resort_react">
+                  <span class="hover_bg"><img src="images/resort/plane/leaf-1.png" alt=""></span>
+                  <span class="hover_bg"><img src="images/resort/plane/Group.png" alt=""></span>
+                  <span class="hover_bg"><img src="images/resort/plane/send-2.png" alt=""></span>
+                </div>
+                <div class="resort_interest">
+                  <div class="interest_person"><img src="images/resort/plane/person.png" alt=""> <span
+                      class="subheading">60 people are interested</span></div>
+                  <span class="heart"><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+              <div class="one_going box_shadow shadow_radious motion_right">
+                <div class="going_image"><img src="images/resort/plane/Mask-Group-1.png" alt=""></div>
+                <div class="going_content">
+                  <span class="subheading">Ongoing</span>
+                  <h4 class="heading">Trip to rome</h4>
+                  <h6 class="heading percent_heading"><span class="percent">40%</span>completed</h6>
+                  <span class="range"><span class="fill"></span></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="holidy">
+      <div class="wrapper holidy scale_motion">
+        <div class="holidy_content">
+          <h2 class="large_heading">We Let's make <br> your next holiday amazing</h2>
+          <img src="images/holiday/Line-1.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="tour">
+      <div class="wrapper promotion_wrapper">
+        <div class="tour-container">
+          <div class="col left">
+            <div class="sp_content">
+              <h5 class="promotion">Promotion</h5>
+              <h2 class="large_heading">We Provide You Best <br> Europe Sightseeing Tours</h2>
+              <p class="description m_width">
+                Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.
+                Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+                illum aut optio quibusdam!
+              </p>
+              <a href="" alt="" class="btn">View Packages</a>
+            </div>
+            <div class="tour-package">
+              <div class="t_item motion_bellow"><img src="images/tour/Destination-1.png"
+                  alt=""><span>$500</span></div>
+              <div class="t_item motion_bellow"><img src="images/tour/Destination-2.png"
+                  alt=""><span>$500</span></div>
+              <div class="t_item motion_bellow"><img src="images/tour/Destination-3.png"
+                  alt=""><span>$500</span></div>
+              <div class="t_item motion_bellow"><img src="images/tour/Destination-4.png"
+                  alt=""><span>$500</span></div>
+            </div>
+          </div>
+          <div class="col right desktop">
+            <div class="tour-image">
+              <img src="images/tour/Illustration.png" alt="" class="motion_right" />
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="explore">
+      <div class="wrapper explore_wrapper inline_0">
+        <div class="explore ">
+          <div class="explore-1 ex_item scale_motion">
+            <div class="ex_content">
+              <h5 class="promotion">Promotion</h5>
+              <h2 class="large_heading explore_heading">Explore Nature</h2>
+              <a href="" alt="" class="package_btn">View Packages</a>
+            </div>
+            <div class="image-box__overlay"></div>
+          </div>
+          <div class="explore-2 ex_item scale_motion">
+            <div class="ex_content">
+              <h5 class="promotion">Promotion</h5>
+              <h2 class="large_heading explore_heading">Explore Cities</h2>
+              <a href="" alt="" class="package_btn">View Packages</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Packages">
+      <div class="wrapper packages-content tendy_wrapper">
+        <div class="top_content">
+          <h5 class="promotion">trendy</h5>
+          <h2 class="large_heading">Our Trending Tour Packages</h2>
+        </div>
+        <div class="packages_items">
+          <div class="p_item">
+            <div class="image"><img src="images/packages/Rectangle-19305.png" alt="" class="p_item_img">
+              <img src="images/packages/Ellipse-623.png" alt="" class="badge-img">
+            </div>
+
+            <div class="activity">
+              <div class="date icon_heading"><img src="images/packages/uil_calender.svg" alt="date"
+                  width="20px" height="20px"><span>8 days</span></div>
+              <div class="user icon_heading"><img src="images/packages/ooui_user-avatar-outline.svg"
+                  width="20px" height="20px" alt="users"><span>25 People going</span></div>
+            </div>
+            <div class="taxomony">
+              <div class="location ">
+                <span class="country ">Switzerland</span>
+                <div class="city">
+                  <img src="images/packages/ep_location.png" alt="">
+                  <h6 class="category icon_heading">Europe</h6>
+                </div>
+              </div>
+              <div class="rating"><img src="images/packages/rating.png" alt=""></div>
+            </div>
+            <div class="total space_start">
+              <div class="sell btn-color"><span class="price">1,000</span> <span id="currency">$</span></div>
+              <div class="regular"><span class="price">1,200</span> <span id="currency">$</span></div>
+            </div>
+            <div class="description">
+              <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et
+                labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+            </div>
+            <div class="button">
+              <a href="" alt="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="p_item">
+            <div class="image"><img src="images/packages/Rectangle 19305 (1).png" alt="" class="p_item_img">
+              <img src="images/packages/Ellipse 623 (1).png" alt="" class="badge-img">
+            </div>
+
+            <div class="activity">
+              <div class="date icon_heading"><img src="images/packages/uil_calender.svg" alt="date"
+                  width="20px" height="20px"><span>8 days</span></div>
+              <div class="user icon_heading"><img src="images/packages/ooui_user-avatar-outline.svg"
+                  width="20px" height="20px" alt="users"><span>30 People going</span></div>
+            </div>
+            <div class="taxomony">
+              <div class="location ">
+                <span class="country ">Amazon</span>
+                <div class="city">
+                  <img src="images/packages/ep_location.png" alt="">
+                  <h6 class="category icon_heading">Brasil</h6>
+                </div>
+              </div>
+              <div class="rating"><img src="images/packages/rating.png" alt=""></div>
+            </div>
+            <div class="total space_start">
+              <div class="sell btn-color"><span class="price">1,223</span> <span id="currency">$</span></div>
+              <div class="regular"><span class="price">1,200</span> <span id="currency">$</span></div>
+            </div>
+            <div class="description">
+              <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et
+                labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+            </div>
+            <div class="button">
+              <a href="" alt="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="p_item">
+            <div class="image"><img src="images/packages/Rectangle 19305 (2).png" alt="" class="p_item_img">
+              <img src="images/packages/Ellipse 623 (2).png" alt="" class="badge-img">
+            </div>
+
+            <div class="activity">
+              <div class="date icon_heading"><img src="images/packages/uil_calender.svg" alt="date"
+                  width="20px" height="20px"><span>8 days</span></div>
+              <div class="user icon_heading"><img src="images/packages/ooui_user-avatar-outline.svg"
+                  width="20px" height="20px" alt="users"><span>155 People going</span></div>
+            </div>
+            <div class="taxomony">
+              <div class="location ">
+                <span class="country ">Giza</span>
+                <div class="city">
+                  <img src="images/packages/ep_location.png" alt="">
+                  <h6 class="category icon_heading">Egypt</h6>
+                </div>
+              </div>
+              <div class="rating"><img src="images/packages/rating.png" alt=""></div>
+            </div>
+            <div class="total space_start">
+              <div class="sell btn-color"><span class="price">12,00</span> <span id="currency">$</span></div>
+              <div class="regular"><span class="price">1,200</span> <span id="currency">$</span></div>
+            </div>
+            <div class="description">
+              <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et
+                labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+            </div>
+            <div class="button">
+              <a href="" alt="" class="btn">Explore Now</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="testimonial">
+      <div class="testimonial wrapper testimonial_wrapper inline_0">
+        <div class="testimonial-content">
+          <div class="item">
+            <h5>PROMOTION</h5>
+            <h2>See What Our Clients Say About Us</h2>
+            <div class="card">
+              <div class="profile">
+                <img src="images/testimonial/Ellipse-624.png" alt="profile" />
+              </div>
+              <div class="card_text">
+                <p>
+                  Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                  magnam et recusandae molestiae sit iure unde aut voluptate
+                  quaerat. Id sunt provident quo possimus impedit vel
+                  doloremque obcaecati qui ullam consectetur et ipsum omnis.
+                </p>
+                <h4 class="seo">Christine Beckam - Designer</h4>
+              </div>
+
+              <span class="left arrow motion_left"><i class="fa-solid fa-arrow-right"></i></span>
+              <span class="right arrow motion_right"><i class="fa-solid fa-arrow-left"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrapper footer_wrapper">
+      <div class="widgets">
+        <div class="item widget_1">
+          <div class="logo">
+            <img src="images/footer/logo.svg" alt="Logo" />
+          </div>
+          <p>Travel helps companies manage payments easily.</p>
+
+          <div class="social-1">
+            <ul class="example-1">
+              <li class="icon-content">
+                <a class="link" data-social="linkedin" aria-label="linkedin" href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <div class="tooltip">Linkedin</div>
+              </li>
+              <li class="icon-content">
+                <a class="link" data-social="messenger" aria-label="messenger" href="">
+                  <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <div class="tooltip">Messenger</div>
+              </li>
+              <li class="icon-content">
+                <a class="link" data-social="twitter" aria-label="twitter" href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <div class="tooltip">Twitter</div>
+              </li>
+              <li class="icon-content">
+                <a class="link" data-social="instagram" aria-label="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <div class="tooltip">Instagram</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item widget_2">
+          <h3>Company</h3>
+          <ul class="fotter_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="item widget_3">
+          <h3>Destinations</h3>
+          <ul class="fotter_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="item widget_4 newsletter">
+          <h3>Join Our Newsletter</h3>
+          <form action="#" class="field_newslatter">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p>
+            * &nbsp; Will send you weekly updates for your better tour
+            packages.
+          </p>
+        </div>
+      </div>
+      <div class="copywrite">
+        <p>Copyright @ Xpro 2022. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <nav popover role="menu" class="visible" id="menu">
+    <ul class="visible-content">
+      <li class="nav_item"><a href="" class="nav_link nav_active">Home</a></li>
+      <li class="nav_item"><a href="" class="nav_link">About</a></li>
+      <li class="nav_item"></li>
+      <a href="" alt="" class="btn header_btn">Get in Touch</a>
+    </ul>
+
+    <button popovertarget="menu" popovertargetaction="hide" class="close">
+      Close
+    </button>
+  </nav>
+</body>
+
+</html>
